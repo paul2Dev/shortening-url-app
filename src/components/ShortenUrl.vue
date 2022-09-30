@@ -27,7 +27,7 @@ const shorthenUrl = () => {
   <div class="container mx-auto h-screen flex items-center justify-center">
     <div class="flex flex-col bg-slate-800 text-green-500 p-10">
       <div class="text-center text-xl">
-        <h1>Shorthen your URL</h1>
+        <h1>Shorten your URL</h1>
       </div>
       <div class="py-4">
         <input @keypress.enter="shorthenUrl" class="text-slate-800 text-center p-2 rounded-lg focus:outline-none focus:ring focus:ring-green-500" type="text" v-model="url" placeholder="enter your url" autofocus>
